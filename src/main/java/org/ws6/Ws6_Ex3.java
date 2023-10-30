@@ -1,6 +1,6 @@
-package org.example;
+package org.ws6;
 
-public class Ex3 {
+public class Ws6_Ex3 {
 
     public int calcArea(int length, int height){
         return length * height;

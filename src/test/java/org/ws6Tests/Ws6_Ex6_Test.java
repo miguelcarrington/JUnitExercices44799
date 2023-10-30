@@ -1,13 +1,14 @@
-import org.example.Ex6;
-import org.example.Main;
+package org.ws6Tests;
+
+import org.ws6.Ws6_Ex6;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Ex6Test {
-    private Ex6 ex6;
+public class Ws6_Ex6_Test {
+    private Ws6_Ex6 ex6;
     private String number;
 
     private int count;
@@ -19,7 +20,7 @@ public class Ex6Test {
 
     @BeforeEach
     public void setup(){
-        ex6= new Ex6();
+        ex6= new Ws6_Ex6();
         number = "0123456789";
         count = 10;
     }

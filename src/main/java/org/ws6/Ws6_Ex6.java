@@ -1,6 +1,6 @@
-package org.example;
+package org.ws6;
 
-public class Ex6 {
+public class Ws6_Ex6 {
 
     public double countDigits(String number){
         String numbers = "0123456789";
